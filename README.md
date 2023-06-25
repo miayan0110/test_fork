@@ -40,13 +40,16 @@ git push
 如果遠端資料庫上的資料版本比本地還新 使用push時就會出錯
 要解決這個問題有兩種辦法
 1. 先拉再推 先使用pull再push
-> git push會將遠端資料庫的版本先拉下來並和本地端合併
->
-> 合併過後的本地版本就會和遠端相同 這時自然能就使用git push
+
+git push會將遠端資料庫的版本先拉下來並和本地端合併
+
+合併過後的本地版本就會和遠端相同 這時自然能就使用git push
+
 2. 強制執行
-> 使用 git push -f / git push -force
->
-> 強制執行git push會將遠端版本覆蓋掉 使用時須注意
+
+使用 git push -f / git push -force
+
+強制執行git push會將遠端版本覆蓋掉 使用時須注意
 
 
 - pull
